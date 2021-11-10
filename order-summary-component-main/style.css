@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+@media screen and (max-width: 500px) {
+  .container {
+    max-width: 300px;
+  }
+}
+
+body {
+  font-family: "Red Hat Display";
+  background: crimson;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 20px;
+  max-width: 50%;
+  overflow: hidden;
+  max-height:auto;
+  max-width: 450px;
+}
+.hero{
+    
+}
+
+.hero-content {
+  text-align: center;
+  padding: 5%;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.annual-plan-box {
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 7%;
+  margin-left: 7%;
+}
+.annual-plan-box-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.annual-plan-box-text {
+  margin-left: 30px;
+}
+
+h2 {
+  margin-bottom: 5px;
+}
+
+.price {
+  margin-top: 0px;
+}
+
+.bottom-buttons {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.proceed-to-payment {
+  text-decoration: none;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  padding: 20px;
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+}
+
+.cancel-order {
+  text-decoration: none;
+
+  padding: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+  background-color: white;
+}
